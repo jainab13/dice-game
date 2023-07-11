@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    box-sizing: border-box;
+}
+body{
+    background-color:black
+}
+.mainbox{
+    display: flex;
+    justify-content:space-around;
+    margin-top:100px;
+    height:350px;
+   
+}
+
+.mainHeading{
+    /* display:inline; */
+    margin-top:50px;
+    text-align:center;
+    color: white
+}
+.image{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+.play{
+    color:white;
+    text-align:center;
+}
+#start{
+    /* display:block; */
+    border: 1px solid grey;
+    border-radius:30px;
+    height:30px;
+    width: 80px;
+    display:inline;
+    color: black;
+    /* text-align:center; */
+    text-align:center;
+    margin: 10px 0 0 650px;
+   
+}
